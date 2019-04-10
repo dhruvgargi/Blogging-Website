@@ -1,0 +1,74 @@
+h1{
+    color : blue;
+    font-family: cursive;
+    font-style: italic;
+    font-stretch: normal;
+    padding : 0px;
+    margin: 0%;
+}
+
+h5{
+    color : black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: oblique;
+    font-size: medium;
+    font-stretch: normal;
+    padding : 0px;
+    margin: 0%;
+}
+
+#signIn{
+    margin-right: 10px;
+    height : 40%;
+}
+
+.buttonClass{
+display: flex;
+justify-content: flex-end;
+padding : 0;
+margin-right: 20px;
+margin-top: 10px;
+}
+
+
+button{
+    background-color: blue;
+    color: white;
+    padding : 15px;
+    size: 8px;
+    margin-bottom: 0%;
+}
+
+
+.header{
+    display:flex;
+    flex-direction: column;
+}
+
+
+#allPosts{
+    background-color: yellow;
+    color:black;
+    font-weight: bold;
+    padding: 12px;
+    size : 8px;
+    margin-top: 240px;
+    margin-right: 20px;
+}
+
+#createPost{
+    background-color: yellow;
+    color:black;
+    font-weight: bold;
+    padding: 12px;
+    size : 8px;
+    margin-top: 240px;
+}
+
+.postButtons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
