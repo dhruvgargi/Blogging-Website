@@ -1,14 +1,33 @@
 body{
-   background: url('background.jpg');
+   background-image: url(background.jpg);
    background-repeat: no-repeat;
    background-attachment: fixed;
    background-position: center center;
    background-size: cover;
    margin: 0 !important;
-   background-size: 100% cover!important;
+   background-size: 100% cover !important;
    overflow:hidden;
    display: block;
 } 
 
-/* Set a style for the rest of the elements besides the header elements on the index.html page */
-                                 
+.postButtons{
+   display:block;
+   margin:auto;
+   position:absolute;
+   top: 42%;
+   left:42%;
+}
+
+.centerButtons{
+      background-color: rgb(207, 181, 59);
+      padding: 10px;
+      font: 1em sans-serif;
+      font-weight:bold;
+      height: 40px;
+      margin: 5px;
+      text-align: center;
+   }                             
+
+#main-container-div {
+      display: block;
+}
